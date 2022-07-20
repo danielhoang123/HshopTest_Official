@@ -1,0 +1,3 @@
+- Khi test SR501 để cảm biến phát hiện được tốt hơn thì
+nên đưa tay kiểu vòng tròn xung quanh đầu nhận tín
+hiệu của cảm biến.

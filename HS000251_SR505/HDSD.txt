@@ -1,0 +1,3 @@
+- Khi cảm biến phát hiện thân nhiệt, cần khoảng thời
+gian tầm 8s hơn để có thể quay lại trạng thái chờ 
+phát hiện lần tiếp theo.

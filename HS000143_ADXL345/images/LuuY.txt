@@ -1,0 +1,5 @@
+QuocHoang
+08/07/2022
+
+- Dien ap cap cho cam bien: 3.3 - 5 (VDC)
+- Giao tiep I2C

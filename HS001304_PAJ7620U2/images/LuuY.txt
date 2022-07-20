@@ -1,0 +1,16 @@
+QuocHoang
+08/07/2022
+
+- Dien ap cap cho cam bien: 3.3 - 5 (VDC).
+- Giao tiep I2c.
+- Thuc hien thao tac cu chi:
+
+	Cu chi:				  	  			  Hien thi tren Serial
+	+ Dua tay sang phai   					----->	  Phai
+	+ Dua tay sang trai   					----->	  Trai
+	+ Dua tay huong len   					----->    Len
+	+ Dua tay huong xuong   				----->    Len
+	+ Dua tay tien ve cam bien 				----->	  Tien
+	+ Dua tay lui  ve cam bien 				----->	  Lui
+	+ Xoay ngon tay quanh lo tron tren cam bien (CL)	----->	  Cung chieu dong ho
+	+ Xoay ngon tay quanh lo tron tren cam bien (CCL)	----->	  Nguoc chieu dong ho
