@@ -1,6 +1,7 @@
 #include <SoftwareSerial.h>
 
 SoftwareSerial jdy33(2, 3); //RX, TX
+#define NAME_DEFAULT    "MKE_M15_"
 
 void setup() {
   // put your setup code here, to ru`n once:
@@ -73,6 +74,10 @@ bool CheckPC_Serial() {
     //    jdy33.println("AT");
     if (SendAT("AT")) {
       Serial.println("AT OK");
+      if (SendAT("AT+NAME")) {
+        
+      }
+      
     } else {
       Serial.println("AT FAIL");
     }
@@ -97,7 +102,7 @@ void setupBLE(unsigned int num) {
 bool SendAT(String str_cm) {
   while (jdy33.available()) jdy33.read();
 
-  jdy33.println("AT");
+  jdy33.println(str_cm);
   delay(10);
 
   return CheckBL_Serial();
