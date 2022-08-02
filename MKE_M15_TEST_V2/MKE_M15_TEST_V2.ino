@@ -20,7 +20,7 @@ bool CheckBL_Serial() {
   if (jdy33.available()) {
     String data = jdy33.readStringUntil("\n");
     Serial.println(data);
-    Serial.println(data.indexOf("OK"));
+    //Serial.println(data.indexOf("OK"));
     if (data.indexOf("OK") > -1) {
       return true;
     }
