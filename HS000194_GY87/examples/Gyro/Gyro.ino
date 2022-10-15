@@ -33,7 +33,7 @@ THE SOFTWARE.
 
 // I2Cdev and MPU6050 must be installed as libraries, or else the .cpp/.h files
 // for both classes must be in the include path of your project
-#include "I2Cdev.h"
+         #include "I2Cdev.h"
 #include "MPU6050.h"
 
 // Arduino Wire library is required if I2Cdev I2CDEV_ARDUINO_WIRE implementation
@@ -83,6 +83,7 @@ void setup() {
     // it's really up to you depending on your project)
     Serial.begin(9600);
 
+    accelgyro.reset();
     // initialize device
     Serial.println("Initializing I2C devices...");
     accelgyro.initialize();
@@ -116,10 +117,14 @@ void setup() {
 
     // configure Arduino LED pin for output
     pinMode(LED_PIN, OUTPUT);
+    accelgyro.resetGyroscopePath();
+    accelgyro.resetAccelerometerPath();
+    accelgyro.reset();
+    
 }
 
-void loop() {
-    // read raw accel/gyro measurements from device
+ void loop() {
+    /*// read raw accel/gyro measurements from device
     accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
 
     // these methods (and a few others) are also available
@@ -149,5 +154,5 @@ void loop() {
     // blink LED to indicate activity
     blinkState = !blinkState;
     digitalWrite(LED_PIN, blinkState);
-    delay(100);
+    delay(100);*/
 }

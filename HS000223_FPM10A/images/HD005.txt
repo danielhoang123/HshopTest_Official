@@ -1,0 +1,6 @@
+Nối chân cảm biến với vi điều khiển:
+
+V+:  Nối 3.3VDC
+Tx:  Nối với chân số 2 của Vi điều khiển
+Rx:  Nối với chân số 3 của Vi điều khiển
+GND: Nối GND

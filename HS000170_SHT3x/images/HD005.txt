@@ -1,0 +1,10 @@
+Tester: Quoc Hoang
+
+arduino     sht3x
+
+5V          5V
+GND         GND
+A4          DA
+A5          CL
+9600
+

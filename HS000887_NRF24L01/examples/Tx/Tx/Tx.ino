@@ -22,7 +22,8 @@ void setup()
 void loop()
 {
   //Send message to receiver
-  const char text[] = "Hshop Xin Chao";
+  const char text[] = "Hshop vn";
+  
   radio.write(&text, sizeof(text));
   
   delay(1000);

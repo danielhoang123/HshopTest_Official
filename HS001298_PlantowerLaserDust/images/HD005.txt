@@ -1,0 +1,6 @@
+Noi day cua cam bien voi Arduino Uno
+
+VCC --------------> 5V
+GND --------------> GND
+RX  --------------> 9
+TX  --------------> 7

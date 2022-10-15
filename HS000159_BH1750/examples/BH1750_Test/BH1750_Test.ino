@@ -14,5 +14,5 @@ void loop() {
   Serial.print("Light: ");
   Serial.print(lux);
   Serial.println(" lx");
-  delay(2000);
+  delay(100);
 }
