@@ -1,0 +1,6 @@
+Nối chân cảm biến vào Arduino:
+
+VCC ----------> 5V
+GND ----------> GND
+SDA ----------> A4
+SCL ----------> A5
