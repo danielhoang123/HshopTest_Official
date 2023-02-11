@@ -1,0 +1,8 @@
+05/01/2023
+Author: Quoc Hoang
+
+CAM BIEN		UNO
+5V	--------------  5V
+GND	--------------  GND
+ECHO	--------------  ECHO
+TRIG	--------------  TRIG
